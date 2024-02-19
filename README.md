@@ -25,6 +25,8 @@ run on aws
 5. kubectl port-forward svc/my-mini-app-service 30001:80 --address 0.0.0.0 &
 
 
+
+
 how to docker update:
 
 1.  docker build -t 2048-app:v1.1 .   
