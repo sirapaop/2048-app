@@ -23,3 +23,11 @@ run on aws
 3.kubectl apply -f .
 4. kubectl get all
 5. kubectl port-forward svc/my-mini-app-service 30001:80 --address 0.0.0.0 &
+
+
+how to docker update:
+
+1.  docker build -t 2048-app:v1.1 .   
+2.  docker run -p 8080:8080 2048-app:v1.1  
+3.  docker push sirapaop/2048-app
+4.  docker tag 2048-app:v1.1 sirapaop/2048-app
