@@ -15,6 +15,7 @@ chose ubuntu in aws
 
     
 --- second time --- 
+
 run on aws
 
 1. minikube start
